@@ -1,0 +1,10 @@
+services:
+  backend:
+    build:
+      target: development
+    image: veggierotin-ui
+    volumes:
+      - ./src:/usr/app/src
+    ports:
+      - "8080:8080"
+    env_file: .env
