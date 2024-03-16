@@ -1,5 +1,5 @@
 import React from "react";
-import VegetableCard from "./Vegetables/VegetableCard";
+import VegetableCard from "./vegetables/VegetableCard";
 import { Grid } from "@mui/material";
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
